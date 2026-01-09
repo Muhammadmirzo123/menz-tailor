@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.history-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 0 50px;
+  background-color: #000000;
+  
+}
+
+.history-container .history-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-container .history-left img {
+  margin-bottom: 170px;
+  margin-left: 150px;
+  width: 700px;
+  height: 600px;
+}
+
+.history-container .history-right {
+  padding: 50px 0 80px 170px;
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  background-color: #fff;
+}
+
+.history-container .history-right > h1 {
+  width: 461px;
+  height: 66px;
+  font-size: 70px;
+  margin: 0 0 28px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.history-container .history-right > p {
+  width: 520px;
+  height: 150px;
+  font-size: 23px;
+  color: #161922;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin-top: 70px;
+}
+
+.history-container .history-right > button {
+  width: 170px;
+  height: 80px;
+  font-size: 20px;
+  background: #c6a16e;
+  border: none;
+  outline: none;
+  margin-top: 50px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.history-container .history-right > button a {
+  color: #fff;
+}
+
+@media (max-width: 430px) {
+  .history-container {
+    padding: 0 20px;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .history-container .history-left img {
+    width: 380px;
+    margin-left: 180px;
+    height: 400px;
+  }
+  .history-container .history-right {
+    width: 390px;
+    height: 400px;
+    position: absolute;
+    z-index: 200;
+    display: flex;
+    padding: 20px;
+    margin-top: 400px;
+  }
+  .history-container .history-right h1{
+    font-size: 50px;
+  }
+  .history-container .history-right p{
+    font-size: 17px;
+    width: 380px;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+footer {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 100px;
+}
+
+footer .footer-back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-back img {
+  border-radius: 20px;
+}
+
+footer .footer-afore {
+  width: 1200px;
+  height: 760px;
+  background-color: #c6a16e;
+  margin-left: -600px;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 50px;
+  font-family: Josefin Sans, sans-serif;
+  gap: 120px;
+}
+
+footer .footer-afore .footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-afore .footer-top > h1 {
+  font-size: 100px;
+}
+
+footer .footer-afore .footer-middle {
+  display: flex;
+  gap: 30px;
+  
+}
+
+footer .footer-afore .footer-middle .footer-contrast {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .footer-afore .footer-middle .footer-contrast p {
+  width: 250px;
+}
+
+footer .footer-afore .footer-middle .footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .footer-afore .footer-middle .footer-links a{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer .footer-afore .footer-middle .footer-links a:hover{
+    transform: scaleY(1.2);
+}
+
+footer .footer-afore .footer-middle .footer-social {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .footer-afore .footer-middle .footer-social .icoon{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+footer .footer-afore h4{
+    font-size: 24px;
+}

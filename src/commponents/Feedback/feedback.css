@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+.feedback-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+  gap: 30px;
+}
+
+.feedback-container .feedback-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feedback-container .feedback-first h2 {
+  font-size: 35px;
+  font-family: Great Vibes, cursive;
+  color: #c6a16e;
+}
+
+.feedback-container .feedback-first h1 {
+  font-size: 60px;
+  color: #c6a16e;
+  font-family: Josefin Sans, sans-serif;
+}
+
+.feedback-container .feedback-third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feedback-container .feedback-third h1 {
+  color: #fff;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  font-size: 15px;
+}
+
+@media (max-width: 430px) {
+.feedback-container .feedback-first h2 {
+  font-size: 30px;
+}
+
+.feedback-container .feedback-first h1 {
+  font-size: 40px;
+}
+}

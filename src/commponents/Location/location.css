@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.location-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  gap: 80px;
+}
+
+.location-container .location-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.location-container .location-first .location-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #c6a16e;
+  text-align: center;
+}
+
+.location-container .location-first .location-text h1 {
+  font-family: Great Vibes, cursive;
+  font-size: 35px;
+  margin: 0 0 22px;
+}
+
+.location-container .location-first .location-text h2 {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 50px;
+  margin: 0 0 25px;
+  font-weight: 400;
+}
+
+.location-container .location-first .location-address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  color: #fff;
+}
+.location-container .location-first .location-address p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.location-container .location-first .location-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.location-container .location-first .location-time span {
+  font-size: 16px;
+  margin: 0 0 8px;
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-container .location-first .location-time p {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.location-container .location-first .location-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c6a16e;
+    gap: 15px;
+    cursor: pointer;
+}

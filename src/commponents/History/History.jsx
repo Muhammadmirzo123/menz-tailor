@@ -15,11 +15,11 @@ const History = () => {
           cillum reeut cupidatatfugiat nulla pariatur. Excepteur sintxsdfas
           occaecat, cupidatat non proidente sunt in culpa qui officia deserunt,
           mollit anim id est laborum. Sedut des perspiciatis unde omnis iste.
-        </p>
+        </p> 
         <button>
           <a href="/">About Us</a>
         </button>
-      </div>
+      </div> 
     </div>
   );
 };

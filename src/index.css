@@ -1,12 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    user-select: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
 }
 
-body{
-    background-color: #000;
+body {
+  background-color: #000000;
+    overflow-x: hidden;
+
 }
+

@@ -26,16 +26,16 @@ const Footer = () => {
           <div className="footer-links">
             <h2>Links</h2>
             <a href="/">Home</a>
-            <a href="/">About Us</a>
-            <a href="/">Our History</a>
+            <a href="/">About</a>
+            <a href="/">History</a>
             <a href="/">Contrast</a>
           </div>
           <div className="footer-social">
             <h2>Social</h2>
             <div className="icoon">
-            <FaFacebookF />
-            <FaTwitter />
-            <FaGlobe />
+              <FaFacebookF />
+              <FaTwitter />
+              <FaGlobe />
             </div>
           </div>
         </div>

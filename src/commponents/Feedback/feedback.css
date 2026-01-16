@@ -53,11 +53,26 @@
 }
 
 @media (max-width: 430px) {
+  .feedback-container{
+    width: 430px;
+  }
+
 .feedback-container .feedback-first h2 {
   font-size: 30px;
 }
 
 .feedback-container .feedback-first h1 {
   font-size: 40px;
+}
+
+  .feedback-container .feedback-second img{
+    width: 430px;
+
+  }
+}
+
+@media (max-width: 425px) {
+.feedback-container .feedback-first h1 {
+  font-size: 35px;
 }
 }

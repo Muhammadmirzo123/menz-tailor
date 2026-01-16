@@ -14,7 +14,7 @@ const Header = () => {
           <img src={img1} alt="" />
         </div>
 
-        <ul className="nav-list">
+        <ul>
           <li>
             <a href="/">Home</a>
           </li>
@@ -46,6 +46,9 @@ const Header = () => {
       </header>
 
       <div className={`mobile-menu ${open ? "open" : ""}`}>
+          <button className="close-btn" onClick={() => setOpen(false)}>
+            <IoClose />
+          </button>
         <ul>
           <li>
             <a href="/">Home</a>
@@ -55,7 +58,7 @@ const Header = () => {
           </li>
           <li>
             <a href="/">History</a>
-          </li> 
+          </li>
           <li>
             <a href="/">Gallery</a>
           </li>
@@ -68,12 +71,13 @@ const Header = () => {
           <li>
             <a href="/">Contact</a>
           </li>
+          <li>
+            <button>
+              Visit Us
+            </button>
+          </li>
           <br />
-        <button className="close-btn" onClick={() => setOpen(false)}>
-          <IoClose />
-        </button>
         </ul>
-        
       </div>
 
       {open && <div className="overlay" onClick={() => setOpen(false)} />}
